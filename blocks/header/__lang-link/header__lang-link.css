@@ -1,0 +1,24 @@
+.header__lang-link {
+  margin-bottom: 6px;
+  width: 30px;
+  height: 28px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+}
+
+.header__lang-link:first-of-type {
+  text-decoration-line: underline;
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .header__lang-link {
+    width: 22px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
