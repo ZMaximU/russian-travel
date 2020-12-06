@@ -11,10 +11,11 @@
     <header class="header">
       <img class="header__logo" src="image/__logo.svg" alt="Россия">
       <div>
-        <a class="header__lang-link" href="#" target="_self">Ru</a>
+        <a class="header__lang-link header__lang-link_ru" href="#" target="_self">Ru</a>
         <a class="header__lang-link" href="#" target="_self">En</a>
       </div>
     </header>
+    <main>
     <section class="lead">
       <h1 class="lead__title">Путешествие по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -49,6 +50,7 @@
       <img class="photo-grid__item" src="image/__item11.png" alt="Красивые виды">
       <img class="photo-grid__item" src="image/__item12.png" alt="Красивые виды">
     </section>
+    <section class="places">
     <ul class="places">
       <li class="place">
         <h2 class="place__title">Куршская коса</h2>
@@ -114,20 +116,28 @@
           В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
           в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
       </li>
-    </ul>
-    <section class="cover">
-      <img class="cover__background" src="image/__background.png" alt="Железнодородная станция">
-      <a class="cover__title" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">До Байкала «на собаках»</a>
-      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+    </ul>    
     </section>
+    <section class="cover">
+      <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+      <img class="cover__background" src="image/__background.png" alt="Железнодородная станция">
+      <div class="cover__overlay">
+      <h2 class="cover__title">До Байкала «на собаках»</h2>
+      <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+      </div>
+      </a>
+    </section>
+    </main>
     <footer class="footer">
-      <ul class="footer__links">
-        <li class="footer__link"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
-        <li class="footer__link"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
-        <li class="footer__link"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
-        <li class="footer__link"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
-        <li class="footer__link"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
-      </ul>
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__item"><a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li class="footer__item"><a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">© 2020. Максим</p>
     </footer>
   </div>
