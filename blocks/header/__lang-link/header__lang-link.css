@@ -8,11 +8,12 @@
   text-align: right;
   color: #FFFFFF;
   margin-right: 18px;
+  text-decoration-line: none;
 }
 
 .header__lang-link:last-of-type {
   margin-right: 0;
-  text-decoration-line: none;
+
 }
 
 @media screen and (max-width: 767px) {
