@@ -1,4 +1,4 @@
-.place__list {
+.places__list {
   display: flex;
   flex-direction: column;
   margin: 0px auto;
