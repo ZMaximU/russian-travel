@@ -6,3 +6,9 @@
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 1024px) {
+  .place__url-heading {
+    width: 456px;
+  }
+}
