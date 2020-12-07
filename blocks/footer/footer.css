@@ -2,14 +2,14 @@
   display: flex;
   padding-bottom: 24px;
   justify-content: space-between;
-  min-width: 186px;
+  max-width: 1184px;
   box-sizing: border-box;
 }
 
 @media screen and (min-width: 1024px) {
   .footer {
     margin: 92px auto 0px;
-    width: calc(100% - 184px);
+    width: calc(100% - 96px);
   }
 }
 

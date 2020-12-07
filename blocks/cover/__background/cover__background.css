@@ -2,11 +2,6 @@
   z-index: 1;
   width: 100%;
   object-fit: contain;
-  background: #2A2C2F;
-  opacity: 0.8;
   max-height: 100%;
-}
-
-.cover__background:hover {
-  opacity: 0.3;
+  grid-area: link;
 }

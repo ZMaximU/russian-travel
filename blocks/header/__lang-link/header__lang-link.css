@@ -6,14 +6,13 @@
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-right: 18px;
   text-decoration-line: none;
 }
 
 .header__lang-link:last-of-type {
   margin-right: 0;
-
 }
 
 @media screen and (max-width: 767px) {

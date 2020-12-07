@@ -1,0 +1,8 @@
+.place__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto;
+  padding: 0px;
+  list-style: none;
+  align-items: center;
+}
